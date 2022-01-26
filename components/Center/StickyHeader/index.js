@@ -17,7 +17,6 @@ const StickyHeader = ({ title, positionTop, backgroundColor }) => {
           <Profile />
         </div>
       </header>
-      //
     );
   }
   return (
