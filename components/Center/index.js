@@ -93,16 +93,16 @@ function Center() {
           <section className="text-sm text-gray-400 pl-8 pr-8 z-20">
             {/* TABLE HEAD */}
             <div className="flex items-center mb-1">
-              <h3 className="w-[3rem] text-lg text-center">#</h3>
-              <h3 className="flex-1 text-left">TITLE</h3>
-              <h3 className="flex-1 text-left mr-6">ALBUM</h3>
-              <h3 className="flex-1 text-left">DATE ADDED</h3>
-              <div className="w-[5rem] flex items-center justify-end">
+              <h3 className="w-[3rem] text-lg text-center z-10">#</h3>
+              <h3 className="flex-1 text-left z-10">TITLE</h3>
+              <h3 className="flex-1 text-left mr-6 z-10">ALBUM</h3>
+              <h3 className="flex-1 text-left z-10">DATE ADDED</h3>
+              <div className="w-[5rem] flex items-center justify-end z-10">
                 <ClockIcon className="w-5 h-5" />
               </div>
               <div className="w-[3rem]"></div>
             </div>
-            <hr className="border-t-[0.1px] border-gray-700 mb-5" />
+            <hr className="border-t-[1px] border-gray-200 mb-5 z-10" />
             {/* TRACKS */}
             <div className="flex flex-col">
               {activePlaylist &&
